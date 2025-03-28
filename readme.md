@@ -29,7 +29,7 @@ Steps for parsing fixed width text
 - Read the "text" file.
 - split the records in "**program**" wise.
 - In each program, split "**header**" and "**body**".
-- Parse "program date" and "**account number**" from header.
+- Parse "**program date**" and "**account number**" from header.
 - Read every record from program body.
 - Define two states "**START**" and "**TRADE**". If the record is "**summary record**" add to "**summary_details**" . 
 - if not, make a transition to "**TRADE**" state. If the record is not a summary record add to "**trade_details**".
