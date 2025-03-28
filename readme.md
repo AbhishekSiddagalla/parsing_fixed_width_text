@@ -5,7 +5,7 @@ Requirements
 - python3
 - pandas
 - sqlalchemy
-- MySQL workbench
+- MySQL 
 
 Dependencies Installation
 -
